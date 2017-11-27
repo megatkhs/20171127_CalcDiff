@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>じぇねれーたー</title>
+  <script type="text/javascript" src="./js/script.js"></script>
+</head>
+<body>
+  <article>
+    <h1>あなたが生まれてから何日たったか じぇねれーたー</h1>
+    <div class="inputWrap inputBir">
+      <p>あなたが生まれた生年月日を入力してね</p>
+      <input id="birY" type="text" value="">年
+      <input id="birM" type="text" value="">月
+      <input id="birD" type="text" value="">日
+    </div>
+    <div class="inputWrap inputNow">
+      <p>現在の日付を入力してね</p>
+      <input id="nowY" type="text" value="">年
+      <input id="nowM" type="text" value="">月
+      <input id="nowD" type="text" value="">日
+    </div>
+    <button onclick="calcDiff()">始める</button>
+  </article>
+  <h2>あなたが生まれたのは</h2>
+  <p id="outputDiff">--日前</p>
+</body>
+</html>
