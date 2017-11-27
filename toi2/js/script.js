@@ -18,7 +18,6 @@ function calcDiff() {
   for(let i = bir.Year; i < now.Year; i++){
     if(i % 100 == 0 && i % 400 != 0){
       diff += 365;
-      dy = "うるう年";
     } else if(i % 4 == 0) {
       diff += 366;
     } else {
